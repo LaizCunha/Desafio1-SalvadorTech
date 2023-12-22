@@ -81,6 +81,10 @@ body {
     background-color: gray;
 }
 
+.tech a:active {
+    background-color: red;
+}
+
 #artigo {
     grid-area: artigo;
 }
