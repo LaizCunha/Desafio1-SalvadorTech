@@ -26,3 +26,22 @@
     padding-top: 8px;
 }
 
+#container {
+    display: grid;
+    grid-template-areas:
+    "info artigo"
+    "info artigo";
+    margin-top: 100px;
+
+}
+
+#info {
+    grid-area: info;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#artigo {
+    grid-area: artigo;
+    border: 2px solid black;
+}
